@@ -1,0 +1,160 @@
+body{
+    position: relative;
+    font-family : "Noto Sans", sans-serif;
+    font-size:16px;
+    line-height:1;
+    color: #000;
+    min-width: 320px;
+}
+.navbar{
+    width:100%;
+    height:80px;
+    box-shadow: 0 4px 10px rgba(0,0,0, .1);
+    background-color: cornflowerblue;
+
+}
+
+.navbar .container{
+    height:inherit;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 100px;
+
+
+
+}
+.navbar-menu{
+    list-style-type:none ;
+    padding-left: 0;
+    margin-bottom:0;
+
+}
+.navbar-menu li{
+   display:inline-block;
+    color: black;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.navbar-menu li a{
+    display:inline-block;
+    color: black;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    margin-left: 100px;
+
+}
+
+
+
+
+.button {
+    display: inline-block;
+    width: 250px;  /* Ширина кнопки */
+    height: 200px; /* Высота кнопки */
+    border: 1px solid #C0C0C0;  /* Черная граница */
+    margin: 20px;
+    border-radius: 20px;
+}
+.button img {
+    max-width: 95%;
+    max-height: 95%;
+    width: 270px;
+    height: 120px;
+    margin-top: 10px;
+}
+.button p {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;  /* Ширина блока row */
+    margin: 0 auto; /* Центрирование блока row */
+}
+.button-container{
+    margin-top: 30px;
+}
+.seemore{
+
+    border: 1px solid #D3D3D3;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 900px;
+
+
+}
+.td_content{
+
+    max-width: 800px;
+    margin: 0;
+
+
+}
+.seemore td a{
+    text-decoration: none;
+    padding-left: 0;
+    margin-bottom:0;
+    color: black;
+    margin-left:20px;
+    font-size: 23px;
+
+
+}
+.seemore td a:hover{
+    color: blue;
+
+}
+
+.client-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.client-content p {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 40px;
+
+}
+.seemore h3{
+    margin-left: 15px;
+    font-size: 28px;
+}
+.seemore tr{
+    text-align: center;
+}
+.html_end{
+    background-color: #C0C0C0;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.content{
+    text-align: center;
+
+    padding: 20px;
+
+}
+.client-content p{
+    text-align: center;
+    max-width: 800px;
+}
+.error{
+    color:red;
+}
